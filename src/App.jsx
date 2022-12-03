@@ -2,7 +2,7 @@ import { Container } from '@mui/material'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { Searcher } from './components/Searcher'
-import { UserCard } from './containers/userCard'
+import { UserCard } from './containers/UserCard'
 import { getGitHubUser } from './services/users'
 
 
