@@ -26,7 +26,7 @@ const UserCard = ({ userState }) => {
         />
       </Grid>
       <Grid item xs={9}>
-        <Stack direction='column' spacing={2} /* sx={{margin:'30px'}} */>
+        <Stack direction='column' spacing={2}>
           <PrincipalInformation userState={userState} />
           <Description userState={userState} />
         </Stack>
