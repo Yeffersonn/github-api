@@ -11,7 +11,7 @@ const PrincipalInformation = ({ userState }) => {
         <Fragment>
             <Stack sx={{ justifyContent: 'space-between' }} direction='row' >
                 <Typography variant='h4' >{name}</Typography>
-                <Typography variant='subtitle2'>{created_at}</Typography>
+                <Typography variant='subtitle2'>{new Date(created_at).toLocaleDateString('en-us')}</Typography>
             </Stack>
             <Typography variant='caption'>{`@${login}`}</Typography>
         </Fragment>
